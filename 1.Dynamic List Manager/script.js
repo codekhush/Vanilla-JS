@@ -14,7 +14,9 @@ formData.addEventListener('submit', (e)=>{
         remBtn.textContent='Remove'
         ul.appendChild(li)
         bottomSection.appendChild(ul)
+
         remBtn.classList.add('remBtn')
+        li.classList.add('handleList')
 
     Input.value = ''
     
